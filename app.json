@@ -1,12 +1,13 @@
 {
   "expo": {
-    "name": "VasthuAayaVarga",
+    "name": "Vasthu Aaya Varga",
     "slug": "VasthuAayaVarga",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
+    "jsEngine": "hermes",
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
@@ -19,7 +20,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.saathvikns.VasthuAayaVarga"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cfe32d94-576f-41f5-b0a3-dbe1a9378720"
+      }
     }
   }
 }
